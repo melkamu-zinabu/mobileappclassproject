@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "403805590502",
+    "project_id": "tour-guide-33f4d",
+    "storage_bucket": "tour-guide-33f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403805590502:android:dbd88e5b187a365a1f3c27",
+        "android_client_info": {
+          "package_name": "com.example.tourguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403805590502-574uskiq61u28utkngusi5iduf6417c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqh_mbSv2V9yN75K_8y-0T3SI-bjud3Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403805590502-574uskiq61u28utkngusi5iduf6417c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403805590502:android:a5aa37ed2145dd891f3c27",
+        "android_client_info": {
+          "package_name": "com.example.yztourguideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403805590502-574uskiq61u28utkngusi5iduf6417c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqh_mbSv2V9yN75K_8y-0T3SI-bjud3Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403805590502-574uskiq61u28utkngusi5iduf6417c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

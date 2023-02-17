@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/blue_shade_1"
+    tools:context=".ADMIN.MANAGEANNOUNCEMENT">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_single_view_activity"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/imagetitle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_image_24" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="title"
+                android:textColorHint="@color/white"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/imagetitle"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"/>
+
+          <TextView
+                android:id="@+id/textView_view_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_single_view_activity"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="40dp"
+                android:hint="image description"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="18dp" />
+            <ProgressBar
+                android:id="@+id/idPBLoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:visibility="gone"
+                android:layout_below="@id/imagetitle"/>
+
+            <Button
+                android:id="@+id/deletebtn"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_view_activity"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/forbutton2"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+            <!-- </LinearLayout>-->
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

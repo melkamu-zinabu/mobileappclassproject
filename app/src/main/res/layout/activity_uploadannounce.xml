@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_shade_1"
+    tools:context=".ADMIN.UPLOADANNOUNCEActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/ic_image_24"
+                android:scaleType="fitXY"
+                android:layout_below="@id/imagetitle"
+                android:id="@+id/imageviewadd"/>
+
+
+            <EditText
+                android:id="@+id/imagetitle"
+                android:background="@drawable/input_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:hint="Title"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+            <EditText
+                android:id="@+id/imagedescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageviewadd"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:hint="Description"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:background="@drawable/input_bg"
+                android:inputType="textMultiLine"
+                android:minHeight="60dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/prgeressviewer"
+                android:layout_below="@id/imagedescription"
+                android:text="0.0%"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prgeressviewer"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="40dp" />
+
+            <Button
+                android:id="@+id/uploadbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progressBar"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="80dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="67dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/forbutton2"
+                android:text="upload" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
