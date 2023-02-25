@@ -22,7 +22,6 @@ import com.example.yztourguideapp.MODEL.Tourmodel;
 import com.example.yztourguideapp.R;
 import com.example.yztourguideapp.Adapterforp.adapterforannounce;
 import com.example.yztourguideapp.common.LOGINActivity;
-import com.example.yztourguideapp.mytrip;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
